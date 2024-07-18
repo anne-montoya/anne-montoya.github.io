@@ -1,0 +1,18 @@
+.name {
+    text-align: center;
+    color: #C2EABD;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.common_text {
+    text-align: center;
+    color: #D5C5C8;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.centered_element {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
