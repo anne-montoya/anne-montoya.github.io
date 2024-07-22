@@ -8,7 +8,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <title>Anne Montoya</title>
+                <title>Anne Montoya | Software Engineer</title>
                 <link rel="icon" href="/logo-no-background.svg"/>
             </head>
             <body>{children}</body>
