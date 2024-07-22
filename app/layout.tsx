@@ -7,6 +7,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <head>
+                <title>Anne Montoya</title>
+                <link rel="icon" href="/logo-no-background.svg"/>
+            </head>
             <body>{children}</body>
         </html>
     )

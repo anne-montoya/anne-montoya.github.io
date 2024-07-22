@@ -11,8 +11,22 @@
 }
   
 .centered_element {
-    width: 100%;
+    /* border:1px solid red; */
+    /* background-color: whitesmoke; */
+    max-width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    padding: 10em;
+    margin: 2em;
+}
+
+.links_div {
+    /* border:1px solid red; */
+    text-align: center;
+    /* padding: 1em; */
+}
+
+.logos {
+    margin: 1em;
 }
