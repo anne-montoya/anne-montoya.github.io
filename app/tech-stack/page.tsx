@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from '../styles.module.css'
 
 export default function Page() {
-    return <div className={styles.tech_stack_div}>
+    return <div className={styles.page_div}>
        <h1 className={styles.page_name}>Tech Stack</h1>
 
         <div className={styles.main_group}>
