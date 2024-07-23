@@ -18,7 +18,9 @@
     top: 50%;
     transform: translateY(-50%);
     padding: 10em;
-    margin: 2em;
+    @media only screen and (max-width: 600px) {
+        padding: 5em;
+    }
 }
 
 .links_div {
@@ -29,4 +31,39 @@
 
 .logos {
     margin: 1em;
+    object-fit: contain;
+}
+
+.logo_link {
+    display: inline-block;
+    width: max-content;
+}
+
+.page_name {
+    text-align: center;
+    color: #C2EABD;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tech_stack_div {
+    position: relative;
+    padding: 5em;
+    width: 100%;
+    padding-top: 2em;
+}
+
+.main_group {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
