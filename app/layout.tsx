@@ -1,4 +1,5 @@
 import './global.css'
+import Navigation from './navigation'
 
 export default function RootLayout({
     children,
@@ -11,7 +12,10 @@ export default function RootLayout({
                 <title>Anne Montoya | Software Engineer</title>
                 <link rel="icon" href="/logo-no-background.svg"/>
             </head>
-            <body>{children}</body>
+            <body>
+                <Navigation />
+                {children}
+            </body>
         </html>
     )
 }

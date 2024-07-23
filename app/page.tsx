@@ -12,6 +12,7 @@ export default function Page() {
         {/* <h2 className={styles.common_text}>🔧 Work In Progress ⚙️</h2> */}
         <div className={styles.links_div}>
         <a
+            className={styles.logo_link}
             href='https://www.linkedin.com/in/anne-kristine-montoya/'
             target={"_blank"}
             rel={"noreferrer"}>
@@ -24,6 +25,7 @@ export default function Page() {
             />
         </a>
         <a
+            className={styles.logo_link}
             href='https://www.github.com/anne-montoya/'
             target={"_blank"}
             rel={"noreferrer"}>
